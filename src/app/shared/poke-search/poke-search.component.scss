@@ -1,0 +1,25 @@
+@import "../../../config-scss/rem-calc.scss";
+
+:host {
+  // Garante que esse estilo será aplicado somente neste componente
+  form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: rem-calc(15) rem-calc(15);
+    border-radius: rem-calc(10);
+    
+
+    input {
+      width: 95%;
+      background: none;
+      border: none;
+      outline: 0;
+
+      font-size: rem-calc(14);
+      color: var(--branco);
+ 
+    }
+  }
+}

@@ -1,0 +1,6 @@
+// Conversão de tudo que for Pixel para Rem
+
+@function rem-calc($size){  //$tamnho do valor que irá passar para esta função
+    $value: $size / 16; // Cada valor do pixel terá que ser dividido por 16
+    @return #{$value}rem; // retorna o valor em rem sempre que passar o valor desta função
+}
